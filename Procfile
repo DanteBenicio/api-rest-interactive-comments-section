@@ -1,1 +1,1 @@
-web: node ./dist/*.js
+web: node ./dist/index.js
