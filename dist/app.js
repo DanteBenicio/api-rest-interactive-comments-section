@@ -14,6 +14,6 @@ app.use(express_1.default.urlencoded({ extended: true }));
 app.use(express_1.default.json());
 app.use((0, cors_1.default)());
 app.use('/', require('./routes'));
-app.listen(3001, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log('Server is running');
 });
