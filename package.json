@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "api-rest-interactive-comments-section",
   "version": "1.0.0",
   "main": "./dist/*.js",
   "scripts": {
