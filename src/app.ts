@@ -21,6 +21,4 @@ app.use(cors())
 
 app.use('/', require('./routes'))
 
-app.listen(3001, () => {
-  console.log('Server is running')
-})
+app.listen(process.env.PORT || 3000)
