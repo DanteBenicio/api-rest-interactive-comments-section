@@ -22,6 +22,7 @@ router.get('/comments', (req, res) => __awaiter(void 0, void 0, void 0, function
         const commentsData = comments.map(comment => {
             const commentContent = {
                 id: comment.id,
+                you: comment.you,
                 content: comment.content,
                 createdAt: comment.createdAt,
                 score: comment.score,
