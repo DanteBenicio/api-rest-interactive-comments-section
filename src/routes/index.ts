@@ -14,4 +14,4 @@ router.put('/comments/:id', updateComment);
 
 router.delete('/comments/:id', deleteComment);
 
-module.exports = router;
+export default router;
