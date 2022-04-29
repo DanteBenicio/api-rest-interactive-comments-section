@@ -23,7 +23,6 @@ const Replies = new mongoose_1.default.Schema({
 const commentSchema = new mongoose_1.default.Schema({
     id: Number,
     content: String,
-    you: Boolean,
     createdAt: String,
     score: Number,
     user: {

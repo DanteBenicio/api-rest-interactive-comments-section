@@ -2,6 +2,7 @@ import express from 'express';
 import { connectMongodb } from './services/mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
+import appRoutes from './routes'
 
 dotenv.config()
 
