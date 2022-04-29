@@ -9,7 +9,7 @@ const app = express();
 
 connectMongodb(process.env.MONGO_DB_URL!);
 
-// middlewares (funçoes que são executadas entre a requisição e resposta)
+app.use(cors())
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/', require('./routes'))
